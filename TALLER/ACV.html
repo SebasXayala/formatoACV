@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de vida</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-4" id="left">
+          <img src="imagenes/escudo.jpg" alt="">
+        </div>
+
+        <div class="col-sm-4" id="center">
+
+          <h4>FORMATO ÚNICO</h4>
+          <h1>HOJA DE VIDA</h1>
+          <h3>Persona Natural</h3>
+
+        </div>
+
+        <div class="col-sm-4" id="right">
+
+          <label for="text">Entidad receptora</label>
+          <input type="text" name="" id="">
+        </div>
+
+      </div>
+
+      <fieldset>
+
+        <legend>Datos Personales</legend>
+
+        <div class="row" id="datos-personales">
+          <div class="col-sm-4">
+            <label for="text">Primer Apellido</label>
+            <input type="text" name="primer-nombre">
+          </div>
+          <div class="col-sm-4">
+            <label for="text">Segundo Apellido</label>
+            <input type="text" name="primer-nombre">
+          </div>
+          <div class="col-sm-4">
+            <label for="text">Primer Apellido</label>
+            <input type="text" name="primer-nombre">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <label for="text">Documento de identidad</label>
+            <input type="text" name="" id="">
+            <br>
+            <select name="Documento" id="documento">
+              <option value="" disabled selected>Selecciona un tipo</option>
+              <option value="Cédula">Cédula</option>
+              <option value="Cédula extranjería">Cédula extranjería</option>
+              <option value="Pasaporte">Pasaporte</option>
+            </select>
+          </div>
+          <div class="col-sm-4">
+            <label for="">Sexo</label>
+            <select name="" id="">
+              <option value="" disabled selected>Seleccione</option>
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+            </select>
+          </div>
+          <div class="col-sm-4">
+            <label for="">Nacionalidad</label>
+            <select name="" id="">
+              <option value="" disabled selected>Seleccione</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Extranjero">Extranjero</option>
+            </select><br>
+            <label for="">País</label>
+            <input type="text" name="" id="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <label for="">Libreta militar: </label>
+            <select name="" id="">
+              <option value="" disabled selected>Seleccione</option>
+              <option value="">Primera clase</option>
+              <option value="">Segunda clase</option>
+            </select>
+            <label for="">Número: </label>
+            <input type="text" name="" id="">
+            <label for="">D.M: </label>
+            <input type="text" name="" id="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <label for="">Fecha y lugar de nacimiento</label><br>
+            <label for="">Fecha</label><br>
+            <label for="">Dia</label>
+            <input type="text" class="fecha">
+            <label for="">Mes</label>
+            <input type="text" class="fecha">
+            <label for="">Año</label>
+            <input type="text" class="fecha"><br>
+            <label for="">País</label> <input type="text"><br>
+            <label for="">Depto</label> <input type="text"><br>
+            <label for="">Municipio</label> <input type="text"><br>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="">Dirección de correspondencia</label>
+            <input type="text"><br>
+            <label for="">País</label>
+            <input type="text"><br>
+            <label for="">Depto</label>
+            <input type="text"><br>
+            <label for="">Municipio</label>
+            <input type="text" name="" id=""><br>
+            <label for="">Teléfono</label>
+            <input type="text"><br>
+            <label for="">Email</label>
+            <input type="text">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Información académica</legend>
+        <p>MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS
+          6o. A 11o. DE
+          EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )</p><br>
+        <div class="row">
+          <label for="">Educación básica</label>
+          <select>
+            <option value="" disabled selected>Seleccione</option>
+            <option value="1o de primaria">1o de primaria</option>
+            <option value="2o de primaria">2o de primaria</option>
+            <option value="3o de primaria">3o de primaria</option>
+            <option value="4o de primaria">4o de primaria</option>
+            <option value="5o de primaria">5o de primaria</option>
+            <option value="6o de secundaria">6o de secundaria</option>
+            <option value="7o de secundaria">7o de secundaria</option>
+            <option value="8o de secundaria">8o de secundaria</option>
+            <option value="9o de secundaria">9o de secundaria</option>
+            <option value="10 de media">10 de media</option>
+            <option value="11 de media">11 de media</option>
+          </select><br>
+          <label for="">Titulo obtenido</label>
+          <input type="text"><br>
+          <label for="">Fecha de grado</label><br>
+          <label for="">Mes</label><input type="text">
+          <label for="">Año</label><input type="text"><br>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Educación superior (Pregrado Y Posgrado)</legend>
+        <p>DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLÓGICO, EN MODALIDAD ACADÉMICA ESCRIBA:
+          <Strong>TC (TÉCNICA)</Strong>, <Strong>TL (TECNOLÓGICA)</Strong>, <Strong>TE (TECNOLÓGICA
+            ESPECIALIZADA)</Strong>, <Strong>UN (UNIVERSITARIA)</Strong>,
+          <Strong>ES (ESPECIALIZACIÓN)</Strong>, <strong>MG (MAESTRÍA O MAGISTER)</strong>, <strong>DOC (DOCTORADO O
+            PHD)</strong>,
+          RELACIONE AL FRENTE EL NÚMERO DE LA TARJETA PROFESIONAL (SI ÉSTA HA SIDO PREVISTA EN UNA LEY).
+        </p>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <label for="">Modalidad académica</label>
+            <input type="text"><br>
+            <label for="text">No. Semestres aprobados</label>
+            <input type="text"><br>
+            <label for="">Graduado</label>
+            <select>
+              <option value="">si</option>
+              <option value="">no</option>
+            </select><br>
+            <label for="">Nombre de los estudios</label>
+            <input type="text" name="" id=""><br>
+            <label for="">Fecha de finalizado en mes y año </label>
+            <input type="text" name="" id=""><br>
+            <label for="">No. de tarjeta profesional</label>
+            <input type="text" name="" id="">
+          </div>
+          <div class="col-sm-4">
+            <label for="">Modalidad académica</label>
+            <input type="text"><br>
+            <label for="text">No. Semestres aprobados</label>
+            <input type="text"><br>
+            <label for="">Graduado</label>
+            <select>
+              <option value="">si</option>
+              <option value="">no</option>
+            </select><br>
+            <label for="">Nombre de los estudios</label>
+            <input type="text" name="" id=""><br>
+            <label for="">Fecha de finalizado en mes y año </label>
+            <input type="text" name="" id=""><br>
+            <label for="">No. de tarjeta profesional</label>
+            <input type="text" name="" id="">
+          </div>
+          <div class="col-sm-4">
+            <label for="">Modalidad académica</label>
+            <input type="text"><br>
+            <label for="text">No. Semestres aprobados</label>
+            <input type="text"><br>
+            <label for="">Graduado</label>
+            <select>
+              <option value="">si</option>
+              <option value="">no</option>
+            </select><br>
+            <label for="">Nombre de los estudios</label>
+            <input type="text" name="" id=""><br>
+            <label for="">Fecha de finalizado en mes y año </label>
+            <input type="text" name="" id=""><br>
+            <label for="">No. de tarjeta profesional</label>
+            <input type="text" name="" id="">
+          </div>
+        </div>
+        <div class="row">
+          <p>ESPECÍFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: HABLA, LEE, ESCRIBE DE FORMA, <Strong>REGULAR
+              (R)</Strong>, <Strong>BIEN (B)</Strong> O
+            <strong>MUY BIEN (MB)</strong>
+          </p>
+
+          <label for="">idioma</label>
+          <input type="text">
+          <label for="">Lo habla</label>
+
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select>
+          <label for="">Lo lee</label>
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select>
+          <label for="">Lo escribe</label>
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select><br>
+          <label for="">idioma</label>
+          <input type="text">
+          <label for="">Lo habla</label>
+
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select>
+          <label for="">Lo lee</label>
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select>
+          <label for="">Lo escribe</label>
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select><br>
+          <label for="">idioma</label>
+          <input type="text">
+          <label for="">Lo habla</label>
+
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select>
+          <label for="">Lo lee</label>
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select>
+          <label for="">Lo escribe</label>
+          <select name="" id="">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">R</option>
+            <option value="">B</option>
+            <option value="">MB</option>
+          </select><br>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Experiencia laboral</legend>
+        <h5>Empleo actual o contrato vigente</h5>
+        <div class="row">
+          <label for="">Empresa o entidad</label>
+          <input type="text" name="" id="">
+          <label for="">tipo de empresa</label>
+          <select name="tipoEm">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">Publica</option>
+            <option value="privada">Privada</option>
+          </select>
+          <label for="">País</label>
+          <input type="text" name="" id=""><br>
+          <label for="">Depto</label>
+          <input type="text">
+          <label for="">Municipio</label>
+          <input type="text">
+          <label for="">correo electrónico entidad</label>
+          <input type="text"><br>
+          <label for="">Teléfono</label>
+          <input type="text">
+          <label for="">fecha de ingreso</label>
+          <input type="date">
+          <label for="">fecha retiro</label>
+          <input type="date"><br>
+          <label for="">Cargo o contrato</label>
+          <input type="text">
+          <label for="">dependencia</label>
+          <input type="text">
+          <label for="">dirección</label>
+          <input type="text">
+        </div>
+
+        <h5>Empleo o contrato anterior</h5>
+        <div class="row">
+          <label for="">Empresa o entidad</label>
+          <input type="text" name="" id="">
+          <label for="">tipo de empresa</label>
+          <select name="tipoEm">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">Publica</option>
+            <option value="privada">Privada</option>
+          </select>
+          <label for="">País</label>
+          <input type="text" name="" id=""><br>
+          <label for="">Depto</label>
+          <input type="text">
+          <label for="">Municipio</label>
+          <input type="text">
+          <label for="">correo electrónico entidad</label>
+          <input type="text"><br>
+          <label for="">Teléfono</label>
+          <input type="text">
+          <label for="">fecha de ingreso</label>
+          <input type="date">
+          <label for="">fecha retiro</label>
+          <input type="date"><br>
+          <label for="">Cargo o contrato</label>
+          <input type="text">
+          <label for="">dependencia</label>
+          <input type="text">
+          <label for="">dirección</label>
+          <input type="text">
+        </div>
+
+        <h5>Empleo o contrato anterior</h5>
+        <div class="row">
+          <label for="">Empresa o entidad</label>
+          <input type="text" name="" id="">
+          <label for="">tipo de empresa</label>
+          <select name="tipoEm">
+            <option value="" disabled selected>Seleccione</option>
+            <option value="">Publica</option>
+            <option value="privada">Privada</option>
+          </select>
+          <label for="">País</label>
+          <input type="text" name="" id=""><br>
+          <label for="">Depto</label>
+          <input type="text">
+          <label for="">Municipio</label>
+          <input type="text">
+          <label for="">correo electrónico entidad</label>
+          <input type="text"><br>
+          <label for="">Teléfono</label>
+          <input type="text">
+          <label for="">fecha de ingreso</label>
+          <input type="date">
+          <label for="">fecha retiro</label>
+          <input type="date"><br>
+          <label for="">Cargo o contrato</label>
+          <input type="text">
+          <label for="">dependencia</label>
+          <input type="text">
+          <label for="">dirección</label>
+          <input type="text">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tiempo total de experiencia</legend>
+        <p>
+          INDIQUE EL TIEMPO TOTAL DE SU EXPERIENCIA LABORAL EN NÚMERO DE AÑOS Y MESES.
+        </p>
+        <div class="row">
+          <label for="">servidor publico</label> <input type="date"><br><br>
+          <label for="">empleado de sector privado</label> <input type="date"><br><br>
+          <label for="">Empleado independiente</label> <input type="date"><br><br>
+          <label for="">total tiempo de experiencia</label> <input type="text" name="" id="">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Firma del servido publico o contratista</legend>
+        <p>
+          MANIFIESTO BAJO LA GRAVEDAD DEL JURAMENTO QUE <strong>SI</strong> <input type="checkbox"> <strong>NO</strong> <input type="checkbox"> ME ENCUENTRO DENTRO DE LAS CAUSALES DE INHABILIDAD E
+          INCOMPATIBILIDAD DEL ORDEN CONSTITUCIONAL O LEGAL, PARA EJERCER CARGOS EMPLEOS PÚBLICOS O PARA CELEBRAR
+          CONTRATOS DE PRESTACIÓN DE SERVICIOS CON LA ADMINISTRACIÓN PÚBLICA.
+          PARA TODOS LOS EFECTOS LEGALES, CERTIFICO QUE LOS DATOS POR MI ANOTADOS EN EL PRESENTE FORMATO ÚNICO DE HOJA
+          DE VIDA, SON
+          VERACES, (ARTÍCULO 5o. DE LA LEY 190/95).
+        </p>
+        <label for="">Ciudad y fecha de diligenciamiento</label><br><br><br>
+        <label for="">firma del servidor publico o contratista</label><br><br><br>
+      </fieldset>
+
+
+    </div>
+  </main>
+
+</body>
+
+</html>
